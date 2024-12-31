@@ -1,14 +1,14 @@
-package it.mbaziekone.book_e_commerce;
+package it.mbaziekone.spring-boot-webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "it.mbaziekone.book_e_commerce")
-public class BookECommerceApplication {
+@ComponentScan(basePackages = "it.mbaziekone.spring-boot-webapp")
+public class SpringBootWebappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookECommerceApplication.class, args);
+		SpringApplication.run(SpringBootWebappApplication.class, args);
 	}
 }
